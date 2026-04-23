@@ -28,7 +28,16 @@ port=1883
 client1= paho.Client("GIT-HUB")
 client1.on_message = on_message
 
-
+st.markdown(
+    """
+    <style>
+    .stApp {
+        background-color: #87CEEB; /* celeste */
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 
 st.title("MQTT Control")
 
