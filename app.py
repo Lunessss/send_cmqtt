@@ -39,7 +39,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-st.title("MQTT Control")
+st.title("Control de MQTT!!")
 
 if st.button('ON'):
     act1="ON"
